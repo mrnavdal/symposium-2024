@@ -1,0 +1,45 @@
+/* Dark mode styles */
+.rbc-calendar-dark {
+  @apply text-white;
+}
+
+.rbc-calendar-dark .rbc-header {
+  @apply bg-gray-800 border-gray-700;
+}
+
+.rbc-calendar-dark .rbc-time-view {
+  @apply border-gray-700;
+}
+
+.rbc-calendar-dark .rbc-time-header {
+  @apply bg-gray-800 border-gray-700;
+}
+
+.rbc-calendar-dark .rbc-time-content {
+  @apply border-gray-700;
+}
+
+.rbc-calendar-dark .rbc-time-slot {
+  @apply text-gray-400;
+}
+
+.rbc-calendar-dark .rbc-today {
+  @apply bg-gray-800;
+}
+
+/* General styles */
+.rbc-event {
+  @apply rounded-md border;
+}
+
+.rbc-event-content {
+  @apply text-sm font-medium;
+}
+
+.rbc-toolbar button {
+  @apply rounded-md;
+}
+
+.rbc-toolbar button.rbc-active {
+  @apply bg-primary text-primary-foreground;
+} 
