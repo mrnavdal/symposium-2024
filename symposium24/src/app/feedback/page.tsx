@@ -16,7 +16,7 @@ export default function FeedbackPage() {
                 <h2 className="text-2xl text-background mb-4">Help Us Improve</h2>
                 <p className="text-background">
                   Your feedback is invaluable in helping us make TechConf better. 
-                  We'd love to hear about your experience with:
+                  Wed love to hear about your experience with:
                 </p>
                 <ul className="list-disc pl-6 mb-4 text-background">
                   <li>Session content and presentations</li>
