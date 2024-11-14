@@ -12,15 +12,15 @@ export function FeedbackLink() {
 
   return (
     <div className="space-y-4">
-      <p className="text-background">
-        Please take a moment to fill out our feedback form
+      <p className="text-gray-light">
+        Vyplňte prosím zpětnou vazbu
       </p>
       <Button 
         onClick={openFeedbackForm}
         size="lg"
         className="group"
       >
-        Open Feedback Form
+        Otevřít formulář zpětné vazby
         <ExternalLink className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
       </Button>
     </div>

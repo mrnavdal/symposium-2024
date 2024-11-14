@@ -19,11 +19,11 @@ interface NavItem {
 }
 
 const navItems: NavItem[] = [
-  { href: '/', label: 'Home', icon: Home },
-  { href: '/schedule', label: 'Schedule', icon: Calendar },
+  { href: '/', label: 'Úvod', icon: Home },
+  { href: '/schedule', label: 'Program', icon: Calendar },
   { href: '/networking', label: 'Networking', icon: Users },
-  { href: '/discussion', label: 'Panel', icon: MessageCircle },
-  { href: '/feedback', label: 'Feedback', icon: MessageSquare },
+  { href: '/discussion', label: 'Diskuse', icon: MessageCircle },
+  { href: '/feedback', label: 'Feedback', icon:MessageSquare },
 ]
 
 export function Navigation() {
@@ -59,7 +59,7 @@ export function Navigation() {
 
       {/* Mobile Bottom Navigation */}
       <nav className="md:hidden fixed bottom-0 left-0 right-0 border-t bg-background z-50">
-        <div className="flex items-center justify-around">
+        <div className="grid grid-cols-5 w-full">
           {navItems.map((item) => (
             <Link
               key={item.href}
@@ -79,7 +79,7 @@ export function Navigation() {
       </nav>
 
       {/* Content Padding for Mobile Bottom Nav */}
-      <div className="pb-4 md:pb-0 md:pl-64">
+      <div className="pb-4 md:pb-0 md:pl-64 bg-background">
         {/* This div wraps the main content to provide padding */}
       </div>
     </>

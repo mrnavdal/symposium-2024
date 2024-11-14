@@ -14,21 +14,21 @@ interface NetworkingRule {
 const networkingRules: NetworkingRule[] = [
   {
     id: '1',
-    color: 'bg-green-500',
+    color: 'bg-green',
     textColor: 'text-green-500',
     title: 'Zelený proužek',
     description: 'Účastník začíná s podnikáním nebo je teprve v přípravné fázi.'
   },
   {
     id: '2',
-    color: 'bg-yellow-500',
+    color: 'bg-yellow',
     textColor: 'text-yellow-500',
     title: 'Žlutý proužek',
     description: 'Účastník již má vlastní firmu a aktivně podniká.'
   },
   {
     id: '3',
-    color: 'bg-red-500',
+    color: 'bg-red',
     textColor: 'text-red-500',
     title: 'Červený proužek',
     description: 'Účastník zatím nepodniká, ale má o podnikání zájem.'
@@ -46,7 +46,7 @@ export function BadgeDescriptions() {
         <AnimatedCard 
           key={rule.id}
           delay={parseInt(rule.id) * 0.1}
-          className="hover:shadow-md transition-shadow"
+          className="hover:shadow-md transition-shadow bg-white"
         >
           <div className="flex items-center gap-3 mb-3">
             <Circle className={`h-6 w-6 ${rule.color} rounded-full`} />

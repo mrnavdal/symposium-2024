@@ -10,9 +10,10 @@ interface EventDialogProps {
   event: CalendarEvent | null
   open: boolean
   onOpenChange: (open: boolean) => void
+  onClose: () => void
 }
 
-export function EventDialog({ event, open, onOpenChange }: EventDialogProps) {
+export function EventDialog({ event, open, onOpenChange, onClose }: EventDialogProps) {
   if (!event) return null
 
   const speaker = event.speaker ? speakers.find(s => s.name === event.speaker) : null
@@ -23,7 +24,7 @@ export function EventDialog({ event, open, onOpenChange }: EventDialogProps) {
         <DialogHeader>
           <DialogTitle>{event.title}</DialogTitle>
         </DialogHeader>
-        <div className="space-y-4">
+        <div className="space-y-4" onClick={onClose}>
           <div>
             <p className="font-semibold">Čas</p>
             <p>
@@ -59,6 +60,7 @@ export function EventDialog({ event, open, onOpenChange }: EventDialogProps) {
               <p>{event.description}</p>
             </div>
           )}
+          
         </div>
       </DialogContent>
     </Dialog>

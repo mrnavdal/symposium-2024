@@ -32,13 +32,13 @@ export function HeroSection() {
             className="text-4xl md:text-6xl font-bold"
             variants={fadeIn}
           >
-            TechConf 2024
+            Symposium 2024
           </motion.h1>
           <motion.p 
             className="text-xl md:text-2xl"
             variants={fadeIn}
           >
-            Shaping the Future of Technology
+            Business nové generace
           </motion.p>
         </div>
       </motion.div>

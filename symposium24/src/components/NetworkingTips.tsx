@@ -40,14 +40,14 @@ const networkingTips: NetworkingTip[] = [
 export function NetworkingTips() {
   return (
     <div className="space-y-6">
-      <h2 className="text-2xl font-semibold mb-4">Networking Tips</h2>
+      <h2 className="text-2xl font-semibold mb-4">Tipy pro networking</h2>
       {networkingTips.map((tip, index) => (
         <AnimatedCard 
           key={tip.title}
           delay={index * 0.1}
-          className="hover:shadow-md transition-shadow"
+          className="hover:shadow-md transition-shadow bg-white"
         >
-          <div className="flex items-start gap-4">
+          <div className="flex items-start gap-4 bg-white">
             <div className="p-2 rounded-full bg-primary/10">
               <tip.icon className="h-5 w-5 text-primary" />
             </div>

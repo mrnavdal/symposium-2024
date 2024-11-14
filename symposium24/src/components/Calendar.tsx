@@ -99,6 +99,7 @@ export function Calendar({ events }: CalendarProps) {
         onOpenChange={(open) => {
           if (!open) setSelectedEvent(null)
         }}
+        onClose={() => setSelectedEvent(null)}
       />
     </>
   )

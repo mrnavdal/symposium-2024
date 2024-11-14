@@ -28,17 +28,17 @@ export function PanelInfo() {
   return (
     <div className="space-y-6">
       <div>
-        <h2 className="text-2xl font-semibold mb-4 text-background">{panelDetails.title}</h2>
-        <div className="flex flex-wrap gap-6 text-background">
+        <h2 className="text-2xl font-semibold mb-4 text-gray-light">{panelDetails.title}</h2>
+        <div className="flex flex-wrap gap-6 text-gray-light">
           <div className="flex items-center gap-2">
-            <Calendar className="h-4 w-4 text-background" />
+            <Calendar className="h-4 w-4" />
             <span>{panelDetails.date}</span>
           </div>
-          <div className="flex items-center gap-2">
-            <Clock className="h-4 w-4 text-background" />
+          <div className="flex items-center gap-2 text-gray-light">
+            <Clock className="h-4 w-4" />
             <span>{panelDetails.time}</span>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 text-gray-light">
             <Users className="h-4 w-4" />
             <span>Moderator: {panelDetails.moderator}</span>
           </div>
@@ -46,12 +46,12 @@ export function PanelInfo() {
       </div>
 
       <div>
-        <h3 className="text-lg font-semibold mb-4 text-background">Panelists</h3>
+        <h3 className="text-lg font-semibold mb-4 text-gray-light">Panelists</h3>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {panelDetails.panelists.map((panelist) => (
             <div 
               key={panelist.name}
-              className="p-4 rounded-lg border bg-card/50"
+              className="p-4 rounded-lg border bg-white"
             >
               <h4 className="font-semibold text-background">{panelist.name}</h4>
               <p className="text-sm text-background mb-2">{panelist.role}</p>

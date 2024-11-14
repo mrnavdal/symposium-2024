@@ -1,25 +1,13 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { Navigation } from "@/components/Navigation";
-import "./globals.css";
+import "@/styles/globals.css";
 import '@/styles/calendar.css'
 import { ClientAnimatePresence } from "@/components/ClientAnimatePresence";
-
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
-
 export const metadata: Metadata = {
-  title: "TechConf 2024",
-  description: "Conference schedule and information",
+  title: "Symposium 2024",
+  description: "Webová brožura pro konferenci Symposium 2024",
 };
 
 export default function RootLayout({
@@ -29,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen m-0 p-0`}>
+      <body className={`font-sans`}>
         <ClientAnimatePresence>
           <ThemeProvider
             attribute="class"
@@ -38,7 +26,7 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             <Navigation />
-            <main className="pb-0 md:pb-0 md:pl-64">
+            <main className="p-120 bg-background">
               {children}
             </main>
           </ThemeProvider>

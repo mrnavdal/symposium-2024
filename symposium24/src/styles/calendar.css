@@ -1,81 +1,88 @@
-/* Dark mode styles */
-.rbc-calendar-dark {
-  @apply text-white;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.rbc-calendar-dark .rbc-header {
-  @apply bg-muted/50 border-border text-muted-foreground font-medium;
-}
+@layer components {
+  /* Dark mode styles */
+  .rbc-calendar-dark {
+    @apply dark:text-white;
+  }
 
-.rbc-calendar-dark .rbc-time-view {
-  @apply border-border bg-card/50 backdrop-blur-sm;
-}
+  .rbc-calendar-dark .rbc-header {
+    @apply dark:bg-background dark:bg-opacity-50 dark:bg-background text-gray-light dark:font-medium;
+  }
 
-.rbc-calendar-dark .rbc-time-header {
-  @apply bg-muted/50 border-border;
-}
+  .rbc-calendar-dark .rbc-time-view {
+    @apply border-gray-light bg-white bg-opacity-50 backdrop-blur-sm;
+  }
 
-.rbc-calendar-dark .rbc-time-content {
-  @apply border-border;
-}
+  .rbc-calendar-dark .rbc-time-header {
+    @apply bg-muted bg-opacity-50 border-border;
+  }
 
-.rbc-calendar-dark .rbc-time-slot {
-  @apply text-muted-foreground;
-}
+  .rbc-calendar-dark .rbc-time-content {
+    @apply border-border;
+  }
 
-.rbc-calendar-dark .rbc-today {
-  @apply bg-muted/50;
-}
+  .rbc-calendar-dark .rbc-time-slot {
+    @apply text-gray-light;
+  }
 
-.rbc-calendar-dark .rbc-current-time-indicator {
-  @apply bg-primary;
-}
+  .rbc-calendar-dark .rbc-today {
+    @apply bg-muted bg-opacity-50;
+  }
 
-/* General styles */
-.rbc-header {
-  @apply py-3 font-medium text-muted-foreground border-border bg-muted/30;
-}
+  .rbc-calendar-dark .rbc-current-time-indicator {
+    @apply bg-primary;
+  }
 
-.rbc-time-view {
-  @apply border-border bg-card/50 backdrop-blur-sm;
-}
+  /* General styles */
+  
+  .rbc-header {
+    @apply py-3 font-medium text-gray-light border-border bg-muted bg-opacity-30;
+  }
 
-.rbc-time-header {
-  @apply border-border bg-muted/30;
-}
+  .rbc-time-view {
+    @apply border-gray-light bg-white bg-opacity-50 backdrop-blur-sm;
+  }
 
-.rbc-time-content {
-  @apply border-border;
-}
+  .rbc-time-header {
+    @apply border-border bg-muted bg-opacity-30;
+  }
 
-.rbc-event {
-  @apply rounded-md border shadow-sm;
-}
+  .rbc-time-content {
+    @apply border-border;
+  }
 
-.rbc-event-content {
-  @apply text-sm font-medium;
-}
+  .rbc-event {
+    @apply rounded-md border shadow-sm;
+  }
 
-.rbc-today {
-  @apply bg-muted/30;
-}
+  .rbc-event-content {
+    @apply text-sm font-medium;
+  }
 
-.rbc-current-time-indicator {
-  @apply bg-primary;
-}
+  .rbc-today {
+    @apply bg-muted bg-opacity-30;
+  }
 
-.rbc-toolbar {
-  @apply mb-4;
-}
+  .rbc-current-time-indicator {
+    @apply bg-primary;
+  }
 
-.rbc-toolbar button {
-  @apply rounded-md border-border bg-card hover:bg-muted/50 transition-colors;
-}
+  .rbc-toolbar {
+    @apply mb-4;
+  }
 
-.rbc-toolbar button.rbc-active {
-  @apply bg-primary text-primary-foreground hover:bg-primary/90;
-}
+  .rbc-toolbar button {
+    @apply rounded-md border-gray-light bg-white hover:bg-muted hover:bg-opacity-50 transition-colors;
+  }
 
-.rbc-time-slot {
-  @apply text-muted-foreground;
-} 
+  .rbc-toolbar button.rbc-active {
+    @apply bg-primary text-white hover:bg-primary hover:bg-opacity-90;
+  }
+
+  .rbc-time-slot {
+    @apply text-gray-light;
+  }
+}

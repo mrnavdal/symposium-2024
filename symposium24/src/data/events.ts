@@ -40,5 +40,15 @@ export const events: CalendarEvent[] = [
     speaker: 'Kateřina Leiutner Genttnerová',
     location: 'Dining Hall',
     description: 'Rádi byste v práci mluvili otevřeně a konstruktivně o nepříjemných věcech? Stáli byste o to umět ustát emočně vypjatou situaci? Nenásilná komunikace nabízí principy a postupy, které vám v tom mohou pomoci. Pojďte si je vyzkoušet na vlastní kůži.'
+  },
+  {
+    id: '4',
+    title: 'Udržitelnost jako cesta k vyspělému Česku',
+    type: 'lecture',
+    start: new Date(2024, new Date().getMonth(), new Date().getDate(), 13, 20),
+    end: new Date(2024, new Date().getMonth(), new Date().getDate(), 13, 40),
+    speaker: 'Lukáš Rolf',
+    location: 'Hlavní sál',
+    description: 'Celý svět hledá cesty k zelenější ekonomice. 92 procent světového HDP je tvořeno v zemích, které se zavázaly snížit emise na čistou nulu. Směr je jasný a Čína i USA zařadily další rychlostní stupeň. Jaké byznysové příležitosti tento zelený závod přináší pro Česko? A pro vaši firmu nebo startup?'
   }
 ]

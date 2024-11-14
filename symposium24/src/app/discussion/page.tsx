@@ -7,19 +7,19 @@ import { AnimatedCard } from '@/components/ui/animated-card'
 export default function DiscussionPage() {
   return (
     <PageTransition>
-      <Container className="py-8">
+      <Container className="pb-20 md:pb-10  md:pt-5 min-h-screen bg-background">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl font-bold mb-8">Panel Discussion</h1>
+          <h1 className="text-3xl font-bold mb-8">Panelová diskuse</h1>
           
-          <div className="space-y-8">
+          <div className="space-y-8 bg-background">
             <AnimatedCard delay={0.1}>
               <PanelInfo />
             </AnimatedCard>
 
             <AnimatedCard delay={0.2} className="text-center">
-              <h2 className="text-xl text-accent mb-4">Join the Discussion</h2>
-              <p className="text-background mb-6">
-                Use Slido to submit your questions and participate in live polls during the panel discussion.
+              <h2 className="text-xl text-accent mb-4">Připojte se k diskuzi</h2>
+              <p className="text-gray-light mb-6">
+                Použijte Slido k odeslání svých otázek.
               </p>
               <SlidoButton />
             </AnimatedCard>
