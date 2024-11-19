@@ -7,7 +7,7 @@ import { AnimatedCard } from '@/components/ui/animated-card'
 export default function DiscussionPage() {
   return (
     <PageTransition>
-      <div className="p-4 md:p-8 min-h-screen bg-background">
+      <div className="p-4 md:p-8 min-h-screen bg-background pb-[80px] md:pb-4">
         <div className="w-full max-w-full">
           <h1 className="text-3xl font-bold mb-8">Panelová diskuse</h1>
           
