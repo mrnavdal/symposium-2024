@@ -1,5 +1,5 @@
 import { PageTransition } from '@/components/PageTransition'
-import { Container } from '@/components/ui/container'
+
 import { PanelInfo } from '@/components/PanelInfo'
 import { SlidoButton } from '@/components/SlidoButton'
 import { AnimatedCard } from '@/components/ui/animated-card'
