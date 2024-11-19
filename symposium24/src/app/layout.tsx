@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`font-sans`}>
+      <body className={`font-sans bg-background`}>
         <ClientAnimatePresence>
           <ThemeProvider
             attribute="class"
@@ -25,10 +25,14 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <Navigation />
-            <main className="p-120 bg-background">
-              {children}
-            </main>
+            <div className="min-h-screen">
+              <Navigation />
+              <div className="lg:ml-[280px]">
+                <main className="w-full">
+                  {children}
+                </main>
+              </div>
+            </div>
           </ThemeProvider>
         </ClientAnimatePresence>
       </body>
