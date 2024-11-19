@@ -28,12 +28,14 @@ export function HeroSection() {
         animate="animate"
       >
         <div className="text-center space-y-4 p-4">
-          <motion.h1 
+          <motion.img
+            src="/images/header_logo_white.png"
+            alt="Symposium logo"
+            width={500}
+            height={100}
             className="text-4xl md:text-6xl font-bold"
             variants={fadeIn}
-          >
-            Symposium 2024
-          </motion.h1>
+          />
           <motion.p 
             className="text-xl md:text-2xl"
             variants={fadeIn}
