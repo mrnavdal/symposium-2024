@@ -12,7 +12,7 @@ export function SocialLinks() {
       transition={{ duration: 0.5, delay: 0.2 }}
     >
       <a
-        href="https://instagram.com/techconf"
+        href="https://www.instagram.com/symposium_konference/"
         target="_blank"
         rel="noopener noreferrer"
         className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
@@ -20,7 +20,7 @@ export function SocialLinks() {
         <Instagram className="w-6 h-6" />
       </a>
       <a
-        href="https://linkedin.com/company/techconf"
+        href="https://www.linkedin.com/company/79326950/admin/dashboard/"
         target="_blank"
         rel="noopener noreferrer"
         className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
