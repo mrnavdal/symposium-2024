@@ -32,10 +32,10 @@ export function Navigation() {
   return (
     <>
       {/* Desktop Side Navigation */}
-      <nav className="hidden lg:flex fixed left-0 top-0 h-screen w-64 border-r bg-background p-4">
+      <nav className="hidden md:flex fixed left-0 top-0 h-screen w-64 border-r bg-background p-4">
         <div className="space-y-4 w-full">
           <div className="px-3 py-2">
-            <h2 className="mb-2 px-4 text-lg font-semibold">TechConf</h2>
+            <h2 className="mb-2 px-4 text-lg font-semibold">Symposium</h2>
           </div>
           <div className="space-y-1">
             {navItems.map((item) => (
@@ -58,7 +58,7 @@ export function Navigation() {
       </nav>
 
       {/* Mobile Bottom Navigation */}
-      <nav className="lg:hidden fixed bottom-0 left-0 right-0 border-t bg-background z-50">
+      <nav className="md:hidden fixed bottom-0 left-0 right-0 border-t bg-background z-50">
         <div className="grid grid-cols-5 w-full">
           {navItems.map((item) => (
             <Link

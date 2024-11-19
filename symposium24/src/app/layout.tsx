@@ -27,7 +27,7 @@ export default function RootLayout({
           >
             <div className="min-h-screen">
               <Navigation />
-              <div className="lg:ml-[280px]">
+              <div className="md:ml-[280px]">
                 <main className="w-full">
                   {children}
                 </main>
