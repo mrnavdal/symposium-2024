@@ -29,7 +29,7 @@ export function EventDialog({ event, open, onOpenChange, onClose }: EventDialogP
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
           >
-            <DialogContent className="p-0">
+            <DialogContent className="p-0 max-h-[85vh] overflow-y-auto">
               <motion.div
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
