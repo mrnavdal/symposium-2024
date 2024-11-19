@@ -16,8 +16,8 @@ export const speakers: Speaker[] = [
     description: 'Lukáš jako ecosystem director působí v platformě „Změna k lepšímu“. Věnuje se budování udržitelných strategií a partnerství. Své zkušenosti z prostředí korporátu a ekologického aktivismu promítá do projektů propojující byznys a neziskový sektor.'
   },
   {
-    imageUrl: '/images/speakers/dominik-urbanek.png',
-    name: 'Dominik Urbánek',
+    imageUrl: '/images/speakers/dominik-urban.png',
+    name: 'Dominik Urban',
     description: 'Dominik jako startupový specialista v CzechInvest pomáhá s rozvojem nových projektů. Díky zkušenostem projektového manažera dokáže pružně reagovat na potřeby firem i trhu.'
   },
   {
