@@ -9,31 +9,33 @@ interface NetworkingTip {
   description: string
 }
 
+
+// Start of Selection
 const networkingTips: NetworkingTip[] = [
   {
     icon: Users,
-    title: 'Být přístupný',
-    description: 'Mírně otevřené postoje a příjemný výraz tváře. Smíchej a udělej oči když mluvíš s ostatními.'
+    title: 'Buď přístupný',
+    description: 'Zaujmi otevřený postoj a příjemný výraz obličeje. Usmívej se a navazuj oční kontakt při rozhovoru s ostatními.'
   },
   {
     icon: MessageSquare,
-    title: 'Ptát se otevřených otázek',
-    description: 'Začni konverzaci s otázkami, které vyžadují podrobné odpovědi, ne jednoduché ano/ne.'
+    title: 'Polož otevřené otázky',
+    description: 'Začni rozhovor otázkami, které vyžadují podrobné odpovědi, nikoliv pouze ano či ne.'
   },
   {
     icon: Link,
-    title: 'Sdílet kontaktní informace',
-    description: 'Vyměň kontaktní informace a připoj se na LinkedIn. Pošli oslovující zprávu odkazující se na tvou konverzaci.'
+    title: 'Sdílej kontaktní informace',
+    description: 'Vyměňte si kontaktní údaje a připojte se na LinkedIn. Pošli uvítací zprávu s odkazem na váš rozhovor.'
   },
   {
     icon: UserPlus,
-    title: 'Sdílet svůj příběh',
-    description: 'Připrav krátkou, zajímavou vlastní prezentaci, ale nech to být přirozené.'
+    title: 'Sdílej svůj příběh',
+    description: 'Připrav krátký, zajímavý osobní příběh, ale zachovej přirozenost.'
   },
   {
     icon: Lightbulb,
-    title: 'Dodávat hodnotu',
-    description: 'Zaměř se na to, jak můžeš pomoci ostatním, nejen na to, co můžeš získat z připojení.'
+    title: 'Dodávej hodnotu',
+    description: 'Zaměř se na to, jak můžeš ostatním pomoci, a ne jen na to, co můžeš získat z nových kontaktů.'
   }
 ]
 

@@ -60,7 +60,7 @@ export const events: CalendarEvent[] = [
     speaker: 'Dominik Urban',
     location: 'Hlavní sál',
     //TODO: Add description
-    description: 'Celý svět hledá cesty k zelenější ekonomice. 92 procent světového HDP je tvořeno v zemích, které se zavázaly snížit emise na čistou nulu. Směr je jasný a Čína i USA zařadily další rychlostní stupeň. Jaké byznysové příležitosti tento zelený závod přináší pro Česko? A pro vaši firmu nebo startup?'
+    description: 'V této přednášce budou představeny dva klíčové startupové programy CzechInvestu: Technologická Inkubace a Akcelerace. Tyto programy se zaměřují na podporu inovativních technologií napříč různými obory. Posluchači se seznámí s hlavními kritérii pro přijetí, procesem hodnocení projektů a kategorizací uznatelných výdajů. Získáte tak ucelený přehled o tom, jak tyto programy mohou podpořit růst a rozvoj vašeho startupu.'
   },
   {
     id: '6',
@@ -71,7 +71,7 @@ export const events: CalendarEvent[] = [
     speaker: 'Tomáš Svoboda',
     location: 'Hlavní sál',
     //TODO: Add description
-    description: 'Celý svět hledá cesty k zelenější ekonomice. 92 procent světového HDP je tvořeno v zemích, které se zavázaly snížit emise na čistou nulu. Směr je jasný a Čína i USA zařadily další rychlostní stupeň. Jaké byznysové příležitosti tento zelený závod přináší pro Česko? A pro vaši firmu nebo startup?'
+    description: 'Jak používám Warrior Mindset v podnikání, při kterém jsem rozjel firmu z gauče do 7-místného exitu za 3 roky? Jaké principy používat pro pozitivní dopad, úspěch zákazníků a přeměnu jejich firem na údržitelné podnikání? To vše se dozvíte v přednášce Tomáše Svobody.'
   },
   {
     id: '7',
@@ -82,7 +82,7 @@ export const events: CalendarEvent[] = [
     speaker: 'Sylva Žáková Talpová',
     location: 'Hlavní sál',
     //TODO: Add description
-    description: 'Celý svět hledá cesty k zelenější ekonomice. 92 procent světového HDP je tvořeno v zemích, které se zavázaly snížit emise na čistou nulu. Směr je jasný a Čína i USA zařadily další rychlostní stupeň. Jaké byznysové příležitosti tento zelený závod přináší pro Česko? A pro vaši firmu nebo startup?'
+    description: 'Začátek podnikání je typickou složitou situací, ve které je třeba udělat velké množství rozhodnutí. Taková rozhodnutí ale děláme každý den, celý život. Koučink jedním z nejefektivnějších nástrojů pro osobní a profesní růst. Společně si projdeme, o čem koučink je a také si ukážeme praktické tipy a triky, které vám pomohou posunout se správným směrem. Dotkneme se i komunikace, vyjednávání a dobrých otázek.'
   },
   {
     id: '8',
@@ -93,7 +93,7 @@ export const events: CalendarEvent[] = [
     speaker: 'Martin Urban',
     location: 'Hlavní sál',
     //TODO: Add description
-    description: 'Celý svět hledá cesty k zelenější ekonomice. 92 procent světového HDP je tvořeno v zemích, které se zavázaly snížit emise na čistou nulu. Směr je jasný a Čína i USA zařadily další rychlostní stupeň. Jaké byznysové příležitosti tento zelený závod přináší pro Česko? A pro vaši firmu nebo startup?'
+    description: 'V této přednášce se podíváme na kontroverzní témata v leadershipu, která často vyvracejí tradiční představy o tom, jak by vedení mělo vypadat. Zaměříme se na to, jak mohou netradiční přístupy měnit pravidla hry a proč v některých situacích funguje přesný opak toho, co se běžně očekává. Na základě svých zkušeností vám ukážu, proč některé zavedené metody neplatí v určitých situacích, týmech, firmách či dokonce generacích. Připravte se na příběhy z reálných situací, které mohou změnit váš pohled na leadership.'
   },
   
   {
@@ -105,7 +105,7 @@ export const events: CalendarEvent[] = [
     speaker: 'Markéta Uhrová',
     location: 'Hlavní sál',
     //TODO: Add description
-    description: 'Celý svět hledá cesty k zelenější ekonomice. 92 procent světového HDP je tvořeno v zemích, které se zavázaly snížit emise na čistou nulu. Směr je jasný a Čína i USA zařadily další rychlostní stupeň. Jaké byznysové příležitosti tento zelený závod přináší pro Česko? A pro vaši firmu nebo startup?'
+    description: 'Testování se zákazníky: I bez hotového produktu můžete svůj produkt / prototyp otestovat rychle a levně. Zaměřím se nejen na to, jak a na co ptát budoucích zákazníků, ale i jak levně ukázat, co máte pro zákazníky připraveno. Jak si to ověřit dříve než utratíte spoustu peněz za vývoj.'
   },
   {
     id: '11',
@@ -116,7 +116,7 @@ export const events: CalendarEvent[] = [
     speaker: 'Kateřina Leiutner Genttnerová',
     location: 'Hlavní sál',
     //TODO: Add description
-    description: 'Celý svět hledá cesty k zelenější ekonomice. 92 procent světového HDP je tvořeno v zemích, které se zavázaly snížit emise na čistou nulu. Směr je jasný a Čína i USA zařadily další rychlostní stupeň. Jaké byznysové příležitosti tento zelený závod přináší pro Česko? A pro vaši firmu nebo startup?'
+    description: 'Udržitelné podnikání – termín, který slyšíme ze všech stran. Ale rozumíme mu opravdu všichni? Ve skutečnosti jde o témata, na kterých se většina z nás shodne, jen se nyní skrývají pod jedním označením, které může mít pro někoho negativní konotaci. Jak zajistit, aby ve vaší firmě skutečně chápali, co to znamená? Jak tento pojem a s ním spojené principy prezentovat nejen interně, ale i obchodním partnerům, zákazníkům a investorům? A co je nejdůležitější – kde začít, co prioritizovat a na co nezapomenout při zavádění principů udržitelnosti do vašeho podnikání?'
   },
   {
     id: '12',
@@ -127,7 +127,7 @@ export const events: CalendarEvent[] = [
     speaker: 'Václav Vidlička',
     location: 'Hlavní sál',
     //TODO: Add description
-    description: 'Celý svět hledá cesty k zelenější ekonomice. 92 procent světového HDP je tvořeno v zemích, které se zavázaly snížit emise na čistou nulu. Směr je jasný a Čína i USA zařadily další rychlostní stupeň. Jaké byznysové příležitosti tento zelený závod přináší pro Česko? A pro vaši firmu nebo startup?'
+    description: 'Pojďme se společně podívat pod pokličku velmi populárního pojmu "investování". Co to vlastně znamená, jak nám dnešní technologie umožňují investovat velmi snadno, rychle a prakticky odkudkoliv. Vysvětlíme si, že investice se nerovná tomu, že přijdu o peníze, ani se neztotožníme s tím, že investice = akcie, bitcoin, zlato. Podíváme se na to, co pojem investice znamená ve své pravé podstatě a jak si své portfolium nastavit podle svých životních cílů a potřeb.'
   },
   {
     id: '13',
@@ -138,7 +138,7 @@ export const events: CalendarEvent[] = [
     speaker: 'Lucie Audi',
     location: 'Hlavní sál',
     //TODO: Add description
-    description: 'Celý svět hledá cesty k zelenější ekonomice. 92 procent světového HDP je tvořeno v zemích, které se zavázaly snížit emise na čistou nulu. Směr je jasný a Čína i USA zařadily další rychlostní stupeň. Jaké byznysové příležitosti tento zelený závod přináší pro Česko? A pro vaši firmu nebo startup?'
+    description: 'Vzdělávací platforma #HolkyzMarketingu se za posledních 10 let svého fungování stala největší českou komunitou marketérek. V tuhle chvíli má už 40 000 členek. Na základě jejího úspěchu se zakladatelky rozhodly vybudovat další vzdělávací platformu a komunitu #HolkyzByznysu. Jak takové budování komunity probíhá? Co to vlastně komunita je a jak ji využít pro svůj byznys? A jak si ji dlouhodobě a efektivně udržet?'
   },
   {
     id: '14',

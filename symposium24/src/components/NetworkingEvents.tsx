@@ -14,33 +14,33 @@ interface NetworkingRule {
 const networkingRules: NetworkingRule[] = [
   {
     id: '1',
-    color: 'bg-green',
-    textColor: 'text-green-500',
-    title: 'Zelený proužek',
-    description: 'Účastník začíná s podnikáním nebo je teprve v přípravné fázi.'
+    color: 'bg-blue',
+    textColor: 'text-blue-500',
+    title: 'Modrý proužek',
+    description: '"Tiše se inspiruji. Zatím jsem nerozjel žádnou vlastní firmu, ale do budoucna to je možné."'
   },
   {
     id: '2',
     color: 'bg-yellow',
     textColor: 'text-yellow-500',
     title: 'Žlutý proužek',
-    description: 'Účastník již má vlastní firmu a aktivně podniká.'
+    description: '"Začínám podnikat. Můžeš se se mnou podělit o své zkušenosti."'
   },
   {
     id: '3',
-    color: 'bg-red',
-    textColor: 'text-red-500',
-    title: 'Červený proužek',
-    description: 'Účastník zatím nepodniká, ale má o podnikání zájem.'
+    color: 'bg-green',
+    textColor: 'text-green-500',
+    title: 'Zelený proužek',
+    description: '"Rojíždím firmu, nebo už nějakou mám rozjetou a hledám nové business parťáky."'
   }
 ]
 
 export function BadgeDescriptions() {
   return (
     <div className="space-y-6">
-      <h2 className="text-2xl dark:leading-text leading-text font-semibold mb-4">Pravidla networkingu</h2>
+      <h2 className="text-2xl dark:leading-text leading-text font-semibold mb-4">Proužky na jmenovce</h2>
       <p className="text-foreground mb-6">
-        Každý účastník má na své jmenovce barevný proužek, který indikuje jeho podnikatelský status:
+        Každý účastník má na své jmenovce barevný proužek, který indikuje jeho vztah k podnikání:
       </p>
       {networkingRules.map((rule) => (
         <AnimatedCard 

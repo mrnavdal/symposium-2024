@@ -17,9 +17,9 @@ export default function DiscussionPage() {
             </AnimatedCard>
 
             <AnimatedCard delay={0.2} className="text-center">
-              <h2 className="text-xl text-accent mb-4">Připojte se k diskuzi</h2>
+              <h2 className="text-xl text-accent mb-4">Připoj se k diskuzi</h2>
               <p className="text-gray-light mb-6">
-                Použijte Slido k odeslání svých otázek.
+                Použij Slido k odeslání svých otázek.
               </p>
               <SlidoButton />
             </AnimatedCard>

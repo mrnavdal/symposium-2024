@@ -44,5 +44,10 @@ export const speakers: Speaker[] = [
     imageUrl: '/images/speakers/sylva-zakova.png',
     name: 'Sylva Žáková Talpová',
     description: 'Sylva je proděkankou pro vnější vztahy a spolupráci s partnery na ECON MUNI. Disponuje také mezinárodní certifikací z výcviku v koučingu a má za sebou desítky sezení s klienty.'
+  },
+  {
+    imageUrl: '/images/speakers/vaclav-vidlicka.png',
+    name: 'Václav Vidlička',
+    description: 'Václav zastává pozici Partnership & Event managera ve Fingood, kde buduje vztahy s investory a organizuje události. Své zkušenosti v oblasti financí a vášně pro inovace přenáší i do světa fintechu.'
   }
 ];
