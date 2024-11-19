@@ -9,7 +9,6 @@ interface AnimatedCardProps extends React.HTMLAttributes<HTMLDivElement> {
 export function AnimatedCard({ 
   children, 
   className, 
-  delay = 0,
   ...props 
 }: AnimatedCardProps) {
   return (
