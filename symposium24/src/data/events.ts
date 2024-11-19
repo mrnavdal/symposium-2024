@@ -45,10 +45,111 @@ export const events: CalendarEvent[] = [
     id: '4',
     title: 'Udržitelnost jako cesta k vyspělému Česku',
     type: 'lecture',
-    start: new Date(2024, new Date().getMonth(), new Date().getDate(), 13, 20),
-    end: new Date(2024, new Date().getMonth(), new Date().getDate(), 13, 40),
+    start: new Date(2024, new Date().getMonth(), new Date().getDate(), 15, 40),
+    end: new Date(2024, new Date().getMonth(), new Date().getDate(), 16, 10),
     speaker: 'Lukáš Rolf',
     location: 'Hlavní sál',
     description: 'Celý svět hledá cesty k zelenější ekonomice. 92 procent světového HDP je tvořeno v zemích, které se zavázaly snížit emise na čistou nulu. Směr je jasný a Čína i USA zařadily další rychlostní stupeň. Jaké byznysové příležitosti tento zelený závod přináší pro Česko? A pro vaši firmu nebo startup?'
-  }
+  },
+  {
+    id: '5',
+    title: 'Jak CzechInvest akceleruje inovace',
+    type: 'lecture',
+    start: new Date(2024, new Date().getMonth(), new Date().getDate(), 13, 20),
+    end: new Date(2024, new Date().getMonth(), new Date().getDate(), 13, 50),
+    speaker: 'Dominik Urban',
+    location: 'Hlavní sál',
+    //TODO: Add description
+    description: 'Celý svět hledá cesty k zelenější ekonomice. 92 procent světového HDP je tvořeno v zemích, které se zavázaly snížit emise na čistou nulu. Směr je jasný a Čína i USA zařadily další rychlostní stupeň. Jaké byznysové příležitosti tento zelený závod přináší pro Česko? A pro vaši firmu nebo startup?'
+  },
+  {
+    id: '6',
+    title: 'Warriors mindset, jak vybudovat globální firmu s dosahem z gauče',
+    type: 'lecture',
+    start: new Date(2024, new Date().getMonth(), new Date().getDate(), 13, 50),
+    end: new Date(2024, new Date().getMonth(), new Date().getDate(), 14, 20),
+    speaker: 'Tomáš Svoboda',
+    location: 'Hlavní sál',
+    //TODO: Add description
+    description: 'Celý svět hledá cesty k zelenější ekonomice. 92 procent světového HDP je tvořeno v zemích, které se zavázaly snížit emise na čistou nulu. Směr je jasný a Čína i USA zařadily další rychlostní stupeň. Jaké byznysové příležitosti tento zelený závod přináší pro Česko? A pro vaši firmu nebo startup?'
+  },
+  {
+    id: '7',
+    title: 'Najdi (znovu) svůj směr: tipy z koučovací praxe',
+    type: 'lecture',
+    start: new Date(2024, new Date().getMonth(), new Date().getDate(), 14, 20),
+    end: new Date(2024, new Date().getMonth(), new Date().getDate(), 14, 50),
+    speaker: 'Sylva Žáková Talpová',
+    location: 'Hlavní sál',
+    //TODO: Add description
+    description: 'Celý svět hledá cesty k zelenější ekonomice. 92 procent světového HDP je tvořeno v zemích, které se zavázaly snížit emise na čistou nulu. Směr je jasný a Čína i USA zařadily další rychlostní stupeň. Jaké byznysové příležitosti tento zelený závod přináší pro Česko? A pro vaši firmu nebo startup?'
+  },
+  {
+    id: '8',
+    title: 'Kontroverze leadersipu, jak nekonvenční přístupy mění hru.',
+    type: 'lecture',
+    start: new Date(2024, new Date().getMonth(), new Date().getDate(), 15, 10),
+    end: new Date(2024, new Date().getMonth(), new Date().getDate(), 15, 40),
+    speaker: 'Martin Urban',
+    location: 'Hlavní sál',
+    //TODO: Add description
+    description: 'Celý svět hledá cesty k zelenější ekonomice. 92 procent světového HDP je tvořeno v zemích, které se zavázaly snížit emise na čistou nulu. Směr je jasný a Čína i USA zařadily další rychlostní stupeň. Jaké byznysové příležitosti tento zelený závod přináší pro Česko? A pro vaši firmu nebo startup?'
+  },
+  
+  {
+    id: '10',
+    title: 'Jak testovat produkt za minimální náklady',
+    type: 'lecture',
+    start: new Date(2024, new Date().getMonth(), new Date().getDate(), 16, 10),
+    end: new Date(2024, new Date().getMonth(), new Date().getDate(), 16, 40),
+    speaker: 'Markéta Uhrová',
+    location: 'Hlavní sál',
+    //TODO: Add description
+    description: 'Celý svět hledá cesty k zelenější ekonomice. 92 procent světového HDP je tvořeno v zemích, které se zavázaly snížit emise na čistou nulu. Směr je jasný a Čína i USA zařadily další rychlostní stupeň. Jaké byznysové příležitosti tento zelený závod přináší pro Česko? A pro vaši firmu nebo startup?'
+  },
+  {
+    id: '11',
+    title: 'Komunikace s dopadem, jak přetavit udržitelnost v úspěšnou strategii',
+    type: 'lecture',
+    start: new Date(2024, new Date().getMonth(), new Date().getDate(), 17, 0),
+    end: new Date(2024, new Date().getMonth(), new Date().getDate(), 17, 30),
+    speaker: 'Kateřina Leiutner Genttnerová',
+    location: 'Hlavní sál',
+    //TODO: Add description
+    description: 'Celý svět hledá cesty k zelenější ekonomice. 92 procent světového HDP je tvořeno v zemích, které se zavázaly snížit emise na čistou nulu. Směr je jasný a Čína i USA zařadily další rychlostní stupeň. Jaké byznysové příležitosti tento zelený závod přináší pro Česko? A pro vaši firmu nebo startup?'
+  },
+  {
+    id: '12',
+    title: 'Mohou moje peníze vydělávat místo mě?',
+    type: 'lecture',
+    start: new Date(2024, new Date().getMonth(), new Date().getDate(), 17, 30),
+    end: new Date(2024, new Date().getMonth(), new Date().getDate(), 18, 0),
+    speaker: 'Václav Vidlička',
+    location: 'Hlavní sál',
+    //TODO: Add description
+    description: 'Celý svět hledá cesty k zelenější ekonomice. 92 procent světového HDP je tvořeno v zemích, které se zavázaly snížit emise na čistou nulu. Směr je jasný a Čína i USA zařadily další rychlostní stupeň. Jaké byznysové příležitosti tento zelený závod přináší pro Česko? A pro vaši firmu nebo startup?'
+  },
+  {
+    id: '13',
+    title: 'Jak z komunity vybudovat firmu',
+    type: 'lecture',
+    start: new Date(2024, new Date().getMonth(), new Date().getDate(), 18, 0),
+    end: new Date(2024, new Date().getMonth(), new Date().getDate(), 18, 30),
+    speaker: 'Lucie Audi',
+    location: 'Hlavní sál',
+    //TODO: Add description
+    description: 'Celý svět hledá cesty k zelenější ekonomice. 92 procent světového HDP je tvořeno v zemích, které se zavázaly snížit emise na čistou nulu. Směr je jasný a Čína i USA zařadily další rychlostní stupeň. Jaké byznysové příležitosti tento zelený závod přináší pro Česko? A pro vaši firmu nebo startup?'
+  },
+  {
+    id: '14',
+    title: 'Panelová diskuse',
+    type: 'lecture',
+    start: new Date(2024, new Date().getMonth(), new Date().getDate(), 18, 50),
+    end: new Date(2024, new Date().getMonth(), new Date().getDate(), 19, 45),
+    speaker: '',
+    location: 'Hlavní sál',
+    //TODO: Add description
+    description: 'Celý svět hledá cesty k zelenější ekonomice. 92 procent světového HDP je tvořeno v zemích, které se zavázaly snížit emise na čistou nulu. Směr je jasný a Čína i USA zařadily další rychlostní stupeň. Jaké byznysové příležitosti tento zelený závod přináší pro Česko? A pro vaši firmu nebo startup?'
+  },
+
 ]

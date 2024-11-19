@@ -14,7 +14,7 @@ export function HeroSection() {
       transition={{ duration: 0.8 }}
     >
       <Image
-        src="/hero-image.jpg"
+        src="/images/hero-image.jpg"
         alt="Conference hall"
         fill
         priority
