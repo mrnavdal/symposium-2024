@@ -18,7 +18,7 @@ export const events: CalendarEvent[] = [
     start: new Date(2024, new Date().getMonth(), new Date().getDate(), 14, 10), 
     end: new Date(2024, new Date().getMonth(), new Date().getDate(), 15, 40),
     speaker: 'Václav Vidlička',
-    location: 'Cashmere',
+    location: 'Cashmere (sraz před schody do nejnižšího patra)',
     description: 'Naučíte se rozpoznat investiční příležitosti, pochopíte možná rizika a objevíte také alternativní možnosti investic jako P2B platformy. Odnesete si praktické tipy, jak si už nyní zajistit finančně svobodnější budoucnost – bez složitostí, jen reálné možnosti.'
   },
   {
@@ -28,7 +28,7 @@ export const events: CalendarEvent[] = [
     start: new Date(2024, new Date().getMonth(), new Date().getDate(), 12, 20),
     end: new Date(2024, new Date().getMonth(), new Date().getDate(), 13, 50),
     speaker: 'Lucie Audi',
-    location: 'Cashmere',
+    location: 'Cashmere (sraz před schody do nejnižšího patra)',
     description: 'Zabránila ti někdy nervozita projevit vlastní názor? Je pro tebe těžké mluvit nahlas speciálně o penězích? Popovídáme si o tom, jak zvládat vlastní nervozitu. Půjdeme do běžných situací a řekneme si, jak si říkat o peníze v případě, že podnikáš, na pohovoru nebo jak si říct o povýšení.'
   },
   {
@@ -38,7 +38,7 @@ export const events: CalendarEvent[] = [
     start: new Date(2024, new Date().getMonth(), new Date().getDate(), 9, 0),
     end: new Date(2024, new Date().getMonth(), new Date().getDate(), 11, 0),
     speaker: 'Petr Sucháček',
-    location: 'Cashmere',
+    location: 'Cashmere (sraz před schody do nejnižšího patra)',
     description: 'Rádi byste v práci mluvili otevřeně a konstruktivně o nepříjemných věcech? Stáli byste o to umět ustát emočně vypjatou situaci? Nenásilná komunikace nabízí principy a postupy, které vám v tom mohou pomoci. Pojďte si je vyzkoušet na vlastní kůži.'
   },
   {

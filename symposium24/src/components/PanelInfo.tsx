@@ -9,22 +9,22 @@ const panelDetails = {
     {
       name: "Lukáš Rolf",
       role: "Ecosystem director at Změna k lepšímu",
-      topic: ""
+      bio: "Lukáš jako ecosystem director působí v platformě „Změna k lepšímu“. Věnuje se budování udržitelných strategií a partnerství. Své zkušenosti z prostředí korporátu a ekologického aktivismu promítá do projektů propojující byznys a neziskový sektor."
     },
     {
       name: "Kateřina Leiutner Genttnerová",
       role: "Sustainability Strategist at Flagship Impact",
-      topic: ""
+      bio: "Kateřina zavádí principy udržitelnosti do firem a pomáhá s tvorbou strategií pro jejich implementaci. Ráda se zabývá odvážnými otázkami a zamýšlí se nad situacemi z různých úhlů pohledu."
     },
     {
       name: "Václav Vidlička",
       role: "Partnership and event manager at Fingood",
-      topic: ""
+      bio: "Václav zastává pozici Partnership & Event managera ve Fingood, kde buduje vztahy s investory a organizuje události. Své zkušenosti v oblasti financí a vášně pro inovace přenáší i do světa fintechu."
     },
     {
       name: "Tomáš Andrlík",
       role: "Spoluzakladatel společnosti Grig",
-      topic: ""
+      bio: "Tomáš je spoluzakladatelZakladatel Grig, nadšený inovátor, spojuje udržitelnost a zdravý životní styl, aby přinesl revoluci v potravinářství s unikátními proteinovými snacky."
     }
   ]
 }
@@ -60,6 +60,7 @@ export function PanelInfo() {
             >
               <h4 className="font-semibold text-background">{panelist.name}</h4>
               <p className="text-sm text-background mb-2">{panelist.role}</p>
+              <p className="text-sm text-muted-foreground">{panelist.bio}</p>
             </div>
           ))}
         </div>
