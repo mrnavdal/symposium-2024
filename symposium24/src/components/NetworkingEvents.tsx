@@ -15,23 +15,23 @@ const networkingRules: NetworkingRule[] = [
   {
     id: '1',
     color: 'bg-blue',
-    textColor: 'text-blue-500',
-    title: 'Modrý proužek',
+    textColor: 'text-green-500',
+    title: 'Zelený proužek',
     description: '"Tiše se inspiruji. Zatím jsem nerozjel žádnou vlastní firmu, ale do budoucna to je možné."'
   },
   {
     id: '2',
-    color: 'bg-yellow',
-    textColor: 'text-yellow-500',
-    title: 'Žlutý proužek',
+    color: 'bg-red',
+    textColor: 'text-red-500',
+    title: 'Červený  proužek',
     description: '"Začínám podnikat. Můžeš se se mnou podělit o své zkušenosti."'
   },
   {
     id: '3',
-    color: 'bg-green',
-    textColor: 'text-green-500',
-    title: 'Zelený proužek',
-    description: '"Rojíždím firmu, nebo už nějakou mám rozjetou a hledám nové business parťáky."'
+    color: 'bg-blue',
+    textColor: 'text-blue-500',
+    title: 'Modrý proužek',
+    description: '"Hledám business parťáka - Rojíždím firmu, nebo už nějakou mám rozjetou a hledám nové business parťáky."'
   }
 ]
 

@@ -1,4 +1,4 @@
-export type EventType = 'workshop' | 'lecture' | 'networking'
+export type EventType = 'workshop' | 'lecture' | 'networking' | 'break' | 'other'
 
 export interface CalendarEvent {
   id: string

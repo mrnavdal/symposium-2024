@@ -21,6 +21,8 @@ const eventStyleGetter = (event: CalendarEvent) => {
     workshop: { bg: '#15803d', border: '#166534' },  // green-700, green-800
     lecture: { bg: '#1d4ed8', border: '#1e40af' },   // blue-700, blue-800
     networking: { bg: '#7e22ce', border: '#6b21a8' }, // purple-700, purple-800
+    break: { bg: '#d97706', border: '#c05621' },      // orange-700, orange-800
+    other: { bg: '#d97706', border: '#c05621' },      // gray-700, gray-800
   }[event.type] || { bg: '#3b82f6', border: '#2563eb' }  // blue-500, blue-600
 
   return {

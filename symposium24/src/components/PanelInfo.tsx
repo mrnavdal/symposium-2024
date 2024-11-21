@@ -1,25 +1,30 @@
 import { Clock, Calendar, Users } from 'lucide-react'
 
 const panelDetails = {
-  title: "The Future of AI in Technology",
-  date: "April 16, 2024",
-  time: "14:00 - 15:30",
-  moderator: "Dr. Sarah Johnson",
+  title: "Co může soustředění na udržitelnost přinést pondnikatelům?",
+  date: "22. listopadu 2024",
+  time: "18:50 - 19:45",
+  moderator: "Martin Matuška",
   panelists: [
     {
-      name: "Alex Chen",
-      role: "AI Research Director, TechCorp",
-      topic: "AI Ethics and Governance"
+      name: "Lukáš Rolf",
+      role: "Ecosystem director at Změna k lepšímu",
+      topic: ""
     },
     {
-      name: "Maria Rodriguez",
-      role: "CTO, Innovation Labs",
-      topic: "AI in Enterprise Solutions"
+      name: "Kateřina Leiutner Genttnerová",
+      role: "Sustainability Strategist at Flagship Impact",
+      topic: ""
     },
     {
-      name: "Dr. James Wilson",
-      role: "Professor of Computer Science",
-      topic: "Future of Machine Learning"
+      name: "Václav Vidlička",
+      role: "Partnership and event manager at Fingood",
+      topic: ""
+    },
+    {
+      name: "Tomáš Andrlík",
+      role: "Spoluzakladatel společnosti Grig",
+      topic: ""
     }
   ]
 }
@@ -40,13 +45,13 @@ export function PanelInfo() {
           </div>
           <div className="flex items-center gap-2 text-gray-light">
             <Users className="h-4 w-4" />
-            <span>Moderator: {panelDetails.moderator}</span>
+            <span>Moderátor: {panelDetails.moderator}</span>
           </div>
         </div>
       </div>
 
       <div>
-        <h3 className="text-lg font-semibold mb-4 text-gray-light">Panelists</h3>
+        <h3 className="text-lg font-semibold mb-4 text-gray-light">Panelisté</h3>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {panelDetails.panelists.map((panelist) => (
             <div 

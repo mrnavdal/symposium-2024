@@ -49,5 +49,15 @@ export const speakers: Speaker[] = [
     imageUrl: '/images/speakers/vaclav-vidlicka.png',
     name: 'Václav Vidlička',
     description: 'Václav zastává pozici Partnership & Event managera ve Fingood, kde buduje vztahy s investory a organizuje události. Své zkušenosti v oblasti financí a vášně pro inovace přenáší i do světa fintechu.'
-  }
+  },
+  {
+    imageUrl: '/images/speakers/petr-suchacek.png',
+    name: 'Petr Sucháček',
+    description: 'Petr Sucháček je lektor a facilitátor Nenásilné komunikace (NVC), kterého fascinovalo, jak ve školách zajistit harmonii a zároveň dosahovat stanovených cílů. Od roku 2012, kdy poprvé potkal NVC, se této metodě věnuje a dnes ji aplikuje v různých kontextech – ve školách, rodinách, byznysu či neziskovém sektoru. Společně s kolegy z NVC Brno hledá kreativní cesty, jak dosahovat cílů a zároveň udržet vztahy v rovnováze.'
+  },
+  {
+    imageUrl: '/images/speakers/eliska-malachova.png',
+    name: 'Eliška Malachová',
+    description: 'Event and community associate v Clubco'
+  },
 ];

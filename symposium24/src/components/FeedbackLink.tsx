@@ -3,7 +3,7 @@
 import { Button } from '@/components/ui/button'
 import { ExternalLink } from 'lucide-react'
 
-const FEEDBACK_FORM_URL = 'https://forms.google.com/your-form-id' // Replace with your actual Google Form URL
+const FEEDBACK_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSe6HRa9uybEIPRL-tyym9XA06Pb2m9TDG7dX4p2HuSDGnWUaQ/viewform?usp=sf_link' 
 
 export function FeedbackLink() {
   const openFeedbackForm = () => {

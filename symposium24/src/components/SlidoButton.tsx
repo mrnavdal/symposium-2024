@@ -3,7 +3,7 @@
 import { Button } from '@/components/ui/button'
 import { ExternalLink } from 'lucide-react'
 
-const SLIDO_URL = 'https://app.sli.do/event/abc123' // Replace with your actual Slido event URL
+const SLIDO_URL = 'https://qr-code.click/i/673e171050c11' 
 
 export function SlidoButton() {
   const openSlido = () => {
