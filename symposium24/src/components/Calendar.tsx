@@ -51,8 +51,10 @@ export function Calendar({ events }: CalendarProps) {
       'rounded-lg',
       'bg-[#1a1a1a]',
     ),
-    min: new Date(2024, 10, 8, 10, 0),
-    max: new Date(2024, 10, 8, 23, 59),
+    // create min and max date that are always today
+    min: new Date(2024, new Date().getMonth(), new Date().getDate(), 9, 0),
+    max: new Date(2024, new Date().getMonth(), new Date().getDate(), 23, 59),
+
     formats: {
       timeGutterFormat: (date: Date) => moment(date).format('HH:mm'),
       eventTimeRangeFormat: ({ start, end }: { start: Date, end: Date }) => 

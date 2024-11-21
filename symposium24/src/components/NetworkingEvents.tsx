@@ -14,7 +14,7 @@ interface NetworkingRule {
 const networkingRules: NetworkingRule[] = [
   {
     id: '1',
-    color: 'bg-blue',
+    color: 'bg-green',
     textColor: 'text-green-500',
     title: 'Zelený proužek',
     description: '"Tiše se inspiruji. Zatím jsem nerozjel žádnou vlastní firmu, ale do budoucna to je možné."'

@@ -71,7 +71,7 @@ export function EventDialog({ event, open, onOpenChange, onClose }: EventDialogP
                     </div>
                   )}
                   {event.description && (
-                    <div>
+                    <div style={{ whiteSpace: 'pre-wrap' }}>
                       <p className="font-semibold">Popis</p>
                       <p>{event.description}</p>
                     </div>

@@ -60,7 +60,6 @@ export function PanelInfo() {
             >
               <h4 className="font-semibold text-background">{panelist.name}</h4>
               <p className="text-sm text-background mb-2">{panelist.role}</p>
-              <p className="text-sm text-background">Topic: {panelist.topic}</p>
             </div>
           ))}
         </div>
