@@ -149,7 +149,7 @@ export const events: CalendarEvent[] = [
     speaker: '',
     location: 'Hlavní sál',
     //TODO: Add description
-    description: 'Celý svět hledá cesty k zelenější ekonomice. 92 procent světového HDP je tvořeno v zemích, které se zavázaly snížit emise na čistou nulu. Směr je jasný a Čína i USA zařadily další rychlostní stupeň. Jaké byznysové příležitosti tento zelený závod přináší pro Česko? A pro vaši firmu nebo startup?'
+    description: ''
   },
   {
     id: '14',
@@ -158,7 +158,7 @@ export const events: CalendarEvent[] = [
     start: new Date(2024, new Date().getMonth(), new Date().getDate(), 19, 10),
     end: new Date(2024, new Date().getMonth(), new Date().getDate(), 19, 40),
     speaker: 'Eliška Malachová',
-    location: 'Hlavní sál',
-    description: 'Kromě přednášek a workshopů se také můžete těšit na jedinečnou CLUBCO TOUR a nechat se provést prostory Clubco ve Vlněně. 😍 Pokud jste začínající podnikatelé nebo prostě jen hledáte inspiraci pro své podnikatelské ambice, neměli byste si rozhodně nechat ujít tuto jedinečnou příležitost v rámci konference Symposium. Večer od 20:10 se můžete připojit ke komentované prohlídce prostor Clubco ve Vlněně, kterou povede Event and community associate Eliška Malachová. \n\nNa programu bude:\n Historie Clubco - jak vše začalo až po současnost.\n🔸 Nahlédnutí do moderního interiéru, který může být inspirací pro váš pracovní prostor.\n🔸 Výhody členství v coworkingovém prostoru - kultura, networking a podpora, kterou potřebujete.\n\nEliška Malachová vás provede úžasným prostorem Clubco ve Vlněně. Těšíme se na vás! 🚀'
+    location: 'Pod schody do druhého patra',
+    description: 'Kromě přednášek a workshopů se také můžete těšit na jedinečnou CLUBCO TOUR a nechat se provést prostory Clubco ve Vlněně. 😍 Pokud jste začínající podnikatelé nebo prostě jen hledáte inspiraci pro své podnikatelské ambice, neměli byste si rozhodně nechat ujít tuto jedinečnou příležitost v rámci konference Symposium. Večer od 20:10 se můžete připojit ke komentované prohlídce prostor Clubco ve Vlněně, kterou povede Event and community associate Eliška Malachová. \n\nNa programu bude:\n🔸 Historie Clubco - jak vše začalo až po současnost.\n🔸 Nahlédnutí do moderního interiéru, který může být inspirací pro váš pracovní prostor.\n🔸 Výhody členství v coworkingovém prostoru - kultura, networking a podpora, kterou potřebujete. \n🔸 Podcastové studio a další novinky.\n\nEliška Malachová vás provede úžasným prostorem Clubco ve Vlněně. Těšíme se na vás! 🚀'
 },
 ]
