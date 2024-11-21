@@ -12,9 +12,6 @@ export default function DiscussionPage() {
           <h1 className="text-3xl font-bold mb-8">Panelová diskuse</h1>
           
           <div className="space-y-8 bg-background">
-            <AnimatedCard delay={0.1}>
-              <PanelInfo />
-            </AnimatedCard>
 
             <AnimatedCard delay={0.2} className="text-center">
               <h2 className="text-xl text-accent mb-4">Připoj se k diskuzi</h2>
@@ -22,6 +19,9 @@ export default function DiscussionPage() {
                 Použij Slido k odeslání svých otázek.
               </p>
               <SlidoButton />
+            </AnimatedCard>
+            <AnimatedCard delay={0.1}>
+              <PanelInfo />
             </AnimatedCard>
           </div>
         </div>
