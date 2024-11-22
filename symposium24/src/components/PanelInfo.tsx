@@ -24,7 +24,7 @@ const panelDetails = {
     {
       name: "Tomáš Andrlík",
       role: "Spoluzakladatel společnosti Grig",
-      bio: "Tomáš je spoluzakladatelZakladatel Grig, nadšený inovátor, spojuje udržitelnost a zdravý životní styl, aby přinesl revoluci v potravinářství s unikátními proteinovými snacky."
+      bio: "Tomáš je spoluzakladatel Grig, nadšený inovátor, který spojuje udržitelnost a zdravý životní styl, aby přinesl revoluci v potravinářství díky unikátním proteinovým snackům."
     }
   ]
 }
