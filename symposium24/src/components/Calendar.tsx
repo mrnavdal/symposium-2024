@@ -14,7 +14,6 @@ import { EventDialog } from './EventDialog'
 const localizer = momentLocalizer(moment)
 
 const eventStyleGetter = (event: CalendarEvent) => {
-  const isPast = moment(event.end).isBefore(moment())
   const isOngoing = moment().isBetween(event.start, event.end)
   
   const colors = {
@@ -28,7 +27,6 @@ const eventStyleGetter = (event: CalendarEvent) => {
   return {
     className: cn(
       'rounded-md border backdrop-blur-sm transition-colors',
-      isPast && 'opacity-50 hover:opacity-70',
       isOngoing && 'ring-2 ring-yellow-400/50 shadow-lg'
     ),
     style: {
@@ -72,8 +70,6 @@ export function Calendar({ events }: CalendarProps) {
       timeGutterFormat: (date: Date) => moment(date).format('HH:mm'),
       eventTimeRangeFormat: ({ start, end }: { start: Date, end: Date }) => 
         `${moment(start).format('HH:mm')} - ${moment(end).format('HH:mm')}`,
-      dayRangeHeaderFormat: ({ start, end }: { start: Date, end: Date }) =>
-        `${moment(start).format('DD.MM.YYYY')} - ${moment(end).format('DD.MM.YYYY')}`,
     },
     localizer,
     events: recurringEvents,
@@ -82,7 +78,7 @@ export function Calendar({ events }: CalendarProps) {
     eventPropGetter: eventStyleGetter,
     tooltipAccessor: (event: CalendarEvent) => 
       `${event.title}\nLocation: ${event.location}\nSpeaker: ${event.speaker}`,
-    toolbar: true,
+    toolbar: false,
     dayPropGetter: () => ({
       style: {
         backgroundColor: theme === 'dark' ? '#2e334c' : '#2e334c',
