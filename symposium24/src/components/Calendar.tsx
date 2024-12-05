@@ -46,20 +46,17 @@ export function Calendar({ events }: CalendarProps) {
   const { theme } = useTheme()
   const [selectedEvent, setSelectedEvent] = useState<CalendarEvent | null>(null)
 
-  // Duplicate events across all days
+  // Duplicate events for the current day only
   const recurringEvents = useMemo(() => {
     const today = moment().startOf('day')
-    return events.flatMap((event) => {
+    return events.map((event) => {
       const start = moment(event.start)
       const end = moment(event.end)
-      return Array.from({ length: 7 }).map((_, index) => {
-        const dayOffset = today.clone().add(index, 'days')
-        return {
-          ...event,
-          start: dayOffset.clone().hour(start.hour()).minute(start.minute()).toDate(),
-          end: dayOffset.clone().hour(end.hour()).minute(end.minute()).toDate(),
-        }
-      })
+      return {
+        ...event,
+        start: today.clone().hour(start.hour()).minute(start.minute()).toDate(),
+        end: today.clone().hour(end.hour()).minute(end.minute()).toDate(),
+      }
     })
   }, [events])
 
@@ -68,8 +65,8 @@ export function Calendar({ events }: CalendarProps) {
       'rounded-lg',
       'bg-[#1a1a1a]',
     ),
-    views: ['day', 'week', 'month'] as View[],
-    defaultView: 'week' as View,
+    views: ['day'] as View[],
+    defaultView: 'day' as View,
 
     formats: {
       timeGutterFormat: (date: Date) => moment(date).format('HH:mm'),
