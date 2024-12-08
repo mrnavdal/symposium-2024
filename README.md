@@ -164,10 +164,3 @@ Projekt je napsán v TypeScriptu, což přináší typovou kontrolu a zlepšenou
 
 Tato aplikace je licencována pod [MIT licencí](LICENSE).
 
-## Kontakt
-
-Pokud máte jakékoliv dotazy nebo návrhy, kontaktujte nás na [vaš-email@domena.com](mailto:vas-email@domena.com).
-
-## Další informace
-
-Pro podrobnější informace o projektu si prosím přečtěte [návod k použití](instructions/instructions.md) a [produktovou dokumentaci](instructions/prd.md).
