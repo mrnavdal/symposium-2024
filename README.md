@@ -1,12 +1,11 @@
 # Symposium 2024
 
-![License](https://img.shields.io/github/license/vaš-repo/symposium-2024)
 ![Next.js](https://img.shields.io/badge/Next.js-12.0.7-blue)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0.23-teal)
 
 ## Popis projektu
 
-Symposium 2024 je podpůrná webová aplikace určená pro konferenci Symposium 2024. Tato aplikace je v současné době ve fázi vývoje a nabízí účastníkům přehledný a interaktivní způsob, jak se orientovat v programu konference, získat informace o jednotlivých řečnících a snadno přistupovat k externím zdrojům.
+Symposium 2024 je podpůrná webová aplikace určená pro konferenci Symposium 2024. Tato aplikace a nabízí účastníkům přehledný a interaktivní způsob, jak se orientovat v programu konference, získat informace o jednotlivých řečnících a snadno přistupovat k externím zdrojům.
 
 ## Hlavní funkce
 
