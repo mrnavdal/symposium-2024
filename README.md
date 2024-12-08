@@ -6,6 +6,7 @@
 ## Popis projektu
 
 Symposium 2024 je podpůrná webová aplikace určená pro konferenci Symposium 2024. Tato aplikace a nabízí účastníkům přehledný a interaktivní způsob, jak se orientovat v programu konference, získat informace o jednotlivých řečnících a snadno přistupovat k externím zdrojům.
+Funkční verzi aplikace si můžete prohlédnout na [Vercelu](https://symposium-2024.vercel.app)
 
 ## Hlavní funkce
 
