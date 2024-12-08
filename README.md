@@ -93,6 +93,7 @@ Symposium 2024 je podpůrná webová aplikace určená pro konferenci Symposium 
    Přejděte na [http://localhost:3000](http://localhost:3000)
 
 ## Struktura projektu
+```
 symposium24/
 ├── README.md
 ├── components.json
@@ -123,6 +124,7 @@ symposium24/
 │ └── utils.ts
 ├── tailwind.config.ts
 └── tsconfig.json
+```
 
 
 ## Konfigurace
