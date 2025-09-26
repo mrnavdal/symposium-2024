@@ -1,6 +1,6 @@
 import { PageTransition } from '@/components/PageTransition'
 import { Container } from '@/components/ui/container'
-import { FeedbackLink } from '@/components/FeedbackLink'
+import { FeedbackLink } from './components/FeedbackLink'
 import { AnimatedCard } from '@/components/ui/animated-card'
 
 export default function FeedbackPage() {

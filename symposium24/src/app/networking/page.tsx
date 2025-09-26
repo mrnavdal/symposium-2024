@@ -1,7 +1,7 @@
 import { PageTransition } from '@/components/PageTransition'
 import { Container } from '@/components/ui/container'
-import { BadgeDescriptions } from '@/components/NetworkingEvents'
-import { NetworkingTips } from '@/components/NetworkingTips'
+import { BadgeDescriptions } from './components/BadgeDescriptions'
+import { NetworkingTips } from './components/NetworkingTips'
 
 export default function NetworkingPage() {
   return (

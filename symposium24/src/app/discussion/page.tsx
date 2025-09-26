@@ -1,7 +1,7 @@
 import { PageTransition } from '@/components/PageTransition'
 
-import { PanelInfo } from '@/components/PanelInfo'
-import { SlidoButton } from '@/components/SlidoButton'
+import { PanelInfo } from './components/PanelInfo'
+import { SlidoButton } from './components/SlidoButton'
 import { AnimatedCard } from '@/components/ui/animated-card'
 
 export default function DiscussionPage() {
